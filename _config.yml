@@ -1,11 +1,13 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
+title: Real-Sim
+email: shaoy@ornl.gov, realsimxil@gmail.com
 url: https://real-sim-xil.github.io/
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+description: "Open-source release pending Summer 2023. Stay tuned
+
+Real-Sim is a multi-resolution X-in-the-loop simulation framework to support inclusive testing and evaluation of CAVs before actual implementation in the real world. Real-Sim framework connects different simulation components and integrates various traffic and vehicle simulation tools, virtual environments, and XIL systems through a Flexible Interface for XIL Simulation (FIXS). Connections among different tools are transparent to users and handled by the interface behind the scenes. Co-simulation of various vehicle and traffic simulation tools with different XIL systems can be easily achieved and become a transparent “plug-and-play” process to users."
+#keywords: "your keywords, separated by commas"
+#skills: "Web Developer - Graphic Artist - User Experience Designer"
+meta_author: Shao Yunli
 
 # Google webmaster tools
 google_verify:
@@ -14,7 +16,7 @@ google_verify:
 bing_verify:
 
 # Contact form:
-# - static : pass through formspree.io to validate email sending
+# - static : pass through formspree.io to validate email sending
 # - disqus : replace contact form by disqus thread
 # - comment the line below if you want to stick with the default PHP contact form
 contact: static
@@ -31,32 +33,32 @@ color:
   secondary-dark: 233140 #A2122F
 
 # Footer settings
-footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
-  social: Around the Web
-  credits: Credits
+# footer:
+  # copyright: Yunli Shao
+#  location: Location
+#  social: Around the Web
+#  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+#social:
+  # - title: twitter
+    # url: http://twitter.com/jekyllrb
+  # - title: facebook
+    # url:
+  # - title: stack-overflow
+    # url: http://stackoverflow.com/questions/tagged/jekyll
+  # - title: bitbucket
+    # url: http://bitbucket.org/jekyll
+  # - title: github
+    # url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+# address:
+  # - line: 3481 Melrose Place
+  # - line: Beverly Hills, CA 90210
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+# credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
